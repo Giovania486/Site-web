@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire2.css"> 
+</head>
+<body>
+    <fieldset id="code">
+        <legend style="text-align:center; color: rgb(2, 39, 3);"><h3><u>Etat Civil</u></h3></legend> <!-- Titre du fieldset -->
+        <div>
+            <div> 
+                <span>
+        <label for="matricule"><u>Matricule</u></label>
+        <input type="text" name="matricule" id="matricule" tabindex="10" />
+        <label for="nom"><u>Nom</u></label>
+        <input type="text" name="nom" id="nom" tabindex="20" />
+        </span>
+        </div>
+        <div>
+            <span>
+        <label for="prénom"><u>Prénom</u></label>
+        <input type="text" name="prénom" id="prénom" tabindex="30" />
+        <label for="sexe"><u>Sexe</u></label>
+        <select name="sexe" id="sexe"><u> <option value="Masculin">Masculin </u></option>
+        <option value="Féminin"><u>Féminin</u></option>
+        </select>
+        </span>
+        </div>
+        <div>
+            <span>
+        <label for="date de naissance"><u>Date de naissance</u></label>
+        <input type="text" name="date de naissance" id="date de naissance" tabindex="30" />
+        <label for="âge"><u>Age</u></label>
+        <input type="text" name="âge" id="âge" tabindex="30" />
+        </span>
+        </div>
+     </div>
+        </fieldset>
+        <form method="post" action="traitement.php">
+        <fieldset id="p">
+            <legend style="text-align:center ; color: rgb(45, 9, 9);"><h3><u>Mes Diplômes</u></h3></legend> <!-- Titre du fieldset -->
+            <div>
+                <div> 
+                    <span>
+            <input type="checkbox" name="CEP" id="CEP" /> <label for="CEP">CEP</label>
+            <input type="checkbox" name="BEPC" id="BEPC" /> <label for="BEPC">BEPC</label>
+            <input type="checkbox" name="BAC" id="BAC" /> <label for="BAC">BAC</label>
+        </span>
+    </div>
+    <div>
+            </form>
+            </fieldset>
+            <form method="post" action="traitement.php">
+                <fieldset id="g">
+                    <legend style="text-align:center ; color: rgb(226, 43, 107);"><h3><u>Expertise</u></h3></legend> <!-- Titre du fieldset -->
+                    <div>
+                        <div> 
+                            <span>
+                <input type="radio" name="expertise" value="Expert IT" id="Expert IT" /> <label for="Expert IT">Expert IT</label>
+                <input type="radio" name="expertise" value="Expert Bavardage" id="Expert Bavardage" /> <label for="Expert Bavardage">Expert Bavardage</label>
+            </span>
+        </div>
+         </fieldset>
+                </form>
+               <fieldset id="e">
+             <legend style="text-align:center ; color: rgb(108, 4, 4);"><u><h3>Les Boutons</u></h3></legend> <!-- Titre du fieldset -->
+                            <span>
+                                <div style="text-align: center;">
+                                <p>
+             <input type="submit" value="Envoyer" size="20" maxlength="5" />
+             <input type="reset" value="Effacer" size="20" maxlength="5" />
+              <button>Quitter</button>
+                                </p>
+                                </div>
+                                </span>
+                                    </fieldset>
+ 
+        <a href="formulaire1.html" target="fene">Précédent</a>______<a href="cv.html" target="fene">Suivant</a>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+   <h2 style="color: aquamarine;"><u>Premier test formulaire</u></h2>
+    <form method="post" action="traitement.php">
+        <p>
+        <u><label for="pseudo">Votre pseudo :</u></label>
+        <input type="text" name="pseudo" id="pseudo" value="M@teo21" />
+        <br />
+        <u><label for="pass">Votre mot de passe :</u></label>
+        <input type="password" name="pass" id="pass" />
+        </p>
+        </form>
+        <form method="post" action="traitement.php">
+            <p>
+            <label for="ameliorer"><u><h3>Comment pensez-vous que je pourrais améliorer mon site ?</u></h3></label><br/>
+            <textarea name="ameliorer" id="ameliorer"></textarea>
+            </p>
+            </form>
+            <form method="post" action="traitement.php">
+                <p>
+               <u><h3> Cochez les aliments que vous aimez manger :</u></h3><br />
+                <input type="checkbox" name="frites" id="frites" /> <label for="frites">Frites</label><br />
+                <input type="checkbox" name="steak" id="steak" /> <label for="steak">Steak haché</label><br/>
+                <input type="checkbox" name="epinards" id="epinards" /> <label for="epinards">Epinards</label><br />
+                <input type="checkbox" name="huitres" id="huitres" /> <label for="huitres">Huitres</label>
+                </p>
+                </form>
+                <form method="post" action="traitement.php">
+                    <p>
+                   <u><h3>Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :</u></h3><br />
+                    <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br/>
+                    <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 
+                    ans</label><br/>
+                    <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 
+                    ans</label><br />
+                    <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Encore plus vieux que ça ?!</label>
+                    </p>
+                    <p>
+                    <u><h3>Sur quel continent habitez-vous ?</u></h3><br />
+                    <input type="radio" name="continent" value="europe" id="europe" /> <label
+                    for="europe">Europe</label><br />
+                    <input type="radio" name="continent" value="afrique" id="afrique" /> <label for="afrique">Afrique</label><br />
+                    <input type="radio" name="continent" value="asie" id="asie" /> <label for="asie">Asie</label><br />
+                    <input type="radio" name="continent" value="amerique" id="amerique" /> <label for="amerique">Amérique</label><br
+                    />
+                    <input type="radio" name="continent" value="australie" id="australie" /> <label for="australie">Australie</label>
+                    </p>                
+                    <form method="post" action="traitement.php">
+                        <p>
+                        <label for="pays">Dans quel pays habitez-vous ?</label><br/>
+                        <select name="pays" id="pays">
+                        <option value="france">France</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="italie">Italie</option>
+                        <option value="royaume-uni">Royaume-Uni</option>
+                        <option value="canada">Canada</option>
+                        <option value="etats-unis">Etats-Unis</option>
+                        <option value="chine">Chine</option>
+                        <option value="japon">Japon</option>
+                        </select>
+                        </p>
+                        </form>
+                        <form method="post" action="traitement.php">
+                            <fieldset>
+                            <legend><u><h3>Vos coordonnées</u></h3></legend> <!-- Titre du fieldset -->
+                            <label for="nom">Quel est votre nom ?</label><br/>
+                            <input type="text" name="nom" id="nom" tabindex="10" /><br />
+                            <label for="prenom">Quel est votre prénom ?</label><br/>
+                            <input type="text" name="prenom" id="prenom" tabindex="20" /><br />
+                            <label for="email">Quel est votre e-mail ?</label><br/>
+                            <input type="text" name="email" id="email" tabindex="30" /><br />
+                            </fieldset>
+                            <fieldset>
+                            <legend><u><h3>Souhait</u></h3></legend> <!-- Titre du fieldset -->
+                            <p>
+                           Faites un souhait que vous voudriez voir exaucé :<br />
+                            <input type="radio" name="souhait" value="riche" id="riche" tabindex="40" /> <label for="riche">Etre 
+                                riche</label><br/>
+                                <input type="radio" name="souhait" value="celebre" id="celebre" tabindex="50" /> <label 
+                                for="celebre">Etre célèbre</label><br/>
+                                <input type="radio" name="souhait" value="intelligent" id="intelligent" tabindex="60" /> <label 
+                                for="intelligent">Etre <strong>encore</strong> plus intelligent</label><br/>
+                                <input type="radio" name="souhait" value="autre" id="autre" tabindex="70" /> <label 
+                                for="autre">Autre...</label><br />
+                                </p>
+                                <p>
+                                <label for="precisions">Si "Autre", veuillez préciser :</label><br />
+                                <textarea name="precisions" id="precisions" cols="40" rows="4" tabindex="80"></textarea>
+                                </p>
+                                </fieldset>
+                                </form>
+            <a href="tableaux.html" target="fene">Précédent</a>_______<a href="formulaire 2.html" target="fene">Suivant</a>
+</body>
+</html>

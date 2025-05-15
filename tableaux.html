@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="code.css">
+<body>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+          padding: 50px;
+        }
+        .bienvenue-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          margin-top: 20px;
+        }
+        .bienvenue-container img {
+          width: 40px;
+          height: 40px;
+        }
+      </style>
+    <h1 syle="text-align:center"><u> Représentations de tableaux</u></h1>
+    <h2><u>Tableu simple</u></h2>
+    <table>
+        <tr style="background-color: blueviolet;">
+        <th>Nom</th>
+        <th>Age</th>
+        <th>Pays</th>
+        </tr>
+        <tr>
+        <td>Carmen</td>
+        <td>33 ans</td>
+        <td>Espagne</td>
+        </tr>
+        <tr>
+        <td>Michelle</td>
+        <td>26 ans</td>
+        <td>Etats-Unis</td>
+        </tr>
+        </table>
+        <table>
+            <h2><u>Titre du tableau</u></h2>
+           <h2><caption><u>Passager du vol 377</u></caption></h2> 
+            <tr style="background-color: rgb(42, 149, 165);">
+            <th>Nom</th>
+            <th>Age</th>
+            <th>Pays</th>
+            </tr>
+            <tr>
+            <td>Carmen</td>
+            <td>33 ans</td>
+            <td>Espagne</td>
+            </tr>
+            <tr>
+            <td>Michelle</td>
+            <td>26 ans</td>
+            <td>Etats-Unis</td>
+            </tr>
+            </table>
+        <h2><u>Des tableaux plus élaborés</u></h2>
+        <table>
+            <caption><u>Passager du vol 377</u></caption>
+            <thead> <!-- En-tête du tableau -->
+            <tr style="background-color: rgb(161, 102, 30);">
+                <th>Nom</th>
+                <th>Age</th>
+                <th>Pays</th>
+                </tr>
+            <td>François</td>
+            <td>43 ans</td>
+            <td>France</td>
+            </thead>
+            <tfoot> <!-- Pied de tableau -->
+            <tr style="background-color: rgb(161, 102, 30);">
+            <th>Nom</th>
+            <th>Age</th>
+            <th>Pays</th>
+            </tr>
+            </tfoot>
+            <tbody> <!-- Corps du tableau -->
+                <tr>
+                <td>Carmen</td>
+                <td>33 ans</td>
+                <td>Espagne</td>
+                </tr>
+                <tr>
+                <td>Michelle</td>
+                <td>26 ans</td>
+                <td>Etats-Unis</td>
+                </tr>
+                <tr>
+                    <td>François</td>
+                    <td>43 ans</td>
+                    <td>France</td>
+                    </thead>
+                    <tfoot> <!-- Pied de tableau -->
+                    </tfoot>
+                    <tbody> <!-- Corps du tableau -->
+                    <tr>
+                    <td>Carmen</td>
+                    <td>33 ans</td>
+                    <td>Espagne</td>
+                    </tr>
+                    <tr>
+                    <td>Michelle</td>
+                    <td>26 ans</td>
+                    <td>Etats-Unis</td>
+                    </tr>
+                    </tr>
+                    <tr>
+                    <td>Martine</td>
+                    <td>34 ans</td>
+                    <td>France</td>
+                    </tr>
+                    <tr>
+                    <td>Jonathan</td>
+                    <td>13 ans</td>
+                    <td>Australie</td>
+                    </tr>
+                    <tr>
+                    <td>Xu</td>
+                    <td>19 ans</td>
+                    <td>Chine</td>
+                </tr>
+             </tbody> 
+            </table>
+            <h2><u>Fusionner des cellules</u></h2>
+    <table>
+                <tr>
+                <th>Titre du film</th>
+                <th>Pour enfants ?</th>
+                <th>Pour adolescents ?</th>
+                </tr>
+                <tr>
+                <td>Massacre à la tronçonneuse</td>
+                <td >Non, trop violent</td>
+                <td>Oui</td>
+                </tr>
+                <tr>
+                <td>Les bisounoursfont du ski</td>
+                <td>Oui, adapté</td>
+                <td>Pas assez violent...</td>
+                </tr>
+                <tr>
+                <td>Lucky Luke, seul contre tous</td>
+                <td colspan="2">Pourtoute la famille !</td>
+                </tr>
+                        </table>
+                        <h2><u>Listes des étudiants</u></h2>
+                        <table>
+                            <thead> <!-- En-tête du tableau -->
+                            <tr>
+                                <th>Matricule</th>
+                                <th>Nom</th>
+                                <th>Prénom</th>
+                                <th>Sexe</th>
+                            </tr>
+                            <tbody> <!-- Corps du tableau -->
+                                <tr>
+                                <td>35725</td>
+                                <td>EGBO</td>
+                                <td>Bien</td>
+                                <td>M</td>
+                                </tr>
+
+                                <tbody> <!-- Corps du tableau -->
+                                <tr>
+                                <td>56425</td>
+                                <td>MIASSIA</td>
+                                <td>Arys</td>
+                                <td>M</td>
+                                </tr>
+                                </tr>
+                                <tbody> <!-- Corps du tableau -->
+                                <tr>
+                                <td>29225</td>
+                                <td>TCHEDJI</td>
+                                <td>Dossi</td>
+                                <td>F</td>
+                               </tr>
+                            </tr>
+                            </thead>
+                        
+                        </tbody>
+                        </table>
+                <h2><u>Tab 1</u></h2>
+                <table>
+                    <caption><u>Tab 1</u></caption>
+                        <tr>
+                            <td rowspan="2"><div id="d">IG 1</div></td>
+                            <td>GTL 1</td>
+                        </tr>
+                         <tr>
+                                <td>GC 1</td>
+
+                        </tr>
+                        </table>
+                    
+                        <h2><u>Tab 2</u></h2>
+                        <table>
+                            <caption><u>Tab 2</u></caption>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;">IG-2</td>
+
+                                </tr>
+                                 <tr>
+                                        <td class="a"><div id="f">GC-2</div></td>
+                                        <td class="a"><div id="f"> GTL-2</div></td>
+                                </tr>
+                                </table>
+                               <a href="page 3.html" target="fene">Précédent</a>______<a href="formulaire1.html" target="fene">Suivant</a> 
+             </body>
+             </html>
