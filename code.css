@@ -1,0 +1,35 @@
+p{
+    color :maroon ;
+    background-image:url(image4.png) ;
+}
+    body{
+     background-image:url(image4.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+Color :maroon ;
+}
+table
+{
+border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+border: 1px solid black;
+}
+ #d{
+    background-color: olive;
+    transform:rotate(270deg) ;
+}
+{
+
+}
+ #f{
+    transform:rotate(400deg) ;
+}
+.a{
+    height: 50px; ;
+}
+body{
+    font-size: x-large;
+}

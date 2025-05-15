@@ -1,0 +1,32 @@
+.cercle
+{
+list-style: circle;
+}
+.carre
+{
+    list-style: square;
+}
+.rien
+{
+    list-style: none;
+}
+ .commence_a_zero
+ {
+list-style-type: decimal-leading-zero;
+ }
+ .lettre_minuscules
+ {
+    list-style-type: lower-alpha;
+ }
+ .chiffre_roman
+ {
+    list-style-type: lower-roman;
+ }
+.lettres_grecques
+{
+    list-style-type: lower-greek;
+}
+body{
+    font-size: x-large;
+    background-color: rgb(234, 184, 109);
+}
